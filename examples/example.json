@@ -1,0 +1,12 @@
+{
+  "rootId": "R",
+  "persons": [
+    { "id": "R", "parentId": null, "status": "deceased", "name": "分配起点" },
+    { "id": "A", "parentId": "R", "status": "alive", "name": "甲" },
+    { "id": "B", "parentId": "R", "status": "deceased", "name": "乙" },
+    { "id": "C", "parentId": "R", "status": "deceased", "name": "丙" },
+    { "id": "B1", "parentId": "B", "status": "alive", "name": "乙一" },
+    { "id": "B2", "parentId": "B", "status": "alive", "name": "乙二" },
+    { "id": "C1", "parentId": "C", "status": "deceased", "name": "丙一" }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "name": "family-branch-allocation",
+  "version": "1.0.0",
+  "description": "虚构家族树按支系代位分摊与份额来源核验后端（仅 API 与 CLI）",
+  "type": "commonjs",
+  "main": "dist/src/index.js",
+  "bin": {
+    "family-tree": "dist/src/cli.js"
+  },
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "test": "npm run build && node --test --test-reporter=spec --no-warnings dist/test/*.test.js",
+    "start": "node --no-warnings dist/src/index.js",
+    "serve": "node --no-warnings dist/src/index.js",
+    "demo": "npm run build && node --no-warnings dist/src/cli.js demo",
+    "cli": "node --no-warnings dist/src/cli.js"
+  },
+  "engines": {
+    "node": ">=22.5.0"
+  },
+  "devDependencies": {
+    "@types/node": "^25.0.0",
+    "typescript": "^5.6.0"
+  }
+}

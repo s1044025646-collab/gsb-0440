@@ -1,0 +1,7 @@
+{
+  "entries": [
+    { "personId": "A", "numerator": "1", "denominator": "2" },
+    { "personId": "B1", "numerator": "1", "denominator": "4" },
+    { "personId": "B2", "numerator": "1", "denominator": "4" }
+  ]
+}
